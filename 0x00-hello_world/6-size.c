@@ -1,7 +1,7 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - various sizes
- * Return 0 (success)
+ * Return  (success)
  */
 int main(void)
 {
@@ -10,6 +10,7 @@ int main(void)
 	long int c;
 	long long int d;
 	float e;
+
 printf("Size of a char:%lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a int:%lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long int:%lu bytes(s)\n", (unsigned long)sizeof(c));
