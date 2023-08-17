@@ -4,13 +4,12 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function
- *
+ * positive_or_negative - print positive or negative or 0.
+ *@n: the entery number.
  * Return: always 0 (success)
  */
-int main(void)
+int positive_or_negative(int n)
 {
-	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
